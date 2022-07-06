@@ -27,3 +27,19 @@ CREATE TABLE species(
  name VARCHAR(80),
  PRIMARY KEY(id)
 );
+
+/*
+Modify animals table:
+ Remove column species
+ Add column species_id which is a foreign key referencing species table
+ Add column owner_id which is a foreign key referencing the owners table
+*/
+ALTER TABLE animals DROP COLUMN species;
+
+ALTER TABLE animals ADD COLUMN species_id INT
+ REFERENCES species(id)
+ ON DELETE CASCADE;
+ 
+ALTER TABLE animals ADD COLUMN owner_id INT
+ REFERENCES owners(id)
+ ON DELETE CASCADE;
