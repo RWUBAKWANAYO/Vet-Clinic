@@ -43,3 +43,11 @@ ALTER TABLE animals ADD COLUMN species_id INT
 ALTER TABLE animals ADD COLUMN owner_id INT
  REFERENCES owners(id)
  ON DELETE CASCADE;
+
+ -- Create a table named vets.
+CREATE TABLE vets (
+	id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+	name VARCHAR(50),
+	age INT,
+	date_of_graduation DATE
+);
