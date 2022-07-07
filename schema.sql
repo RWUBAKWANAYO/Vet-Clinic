@@ -51,3 +51,11 @@ CREATE TABLE vets (
 	age INT,
 	date_of_graduation DATE
 );
+
+-- Create a "join table" called specializations.
+CREATE TABLE specializations (
+	vets_id INT NOT NULL,
+	species_id INT NOT NULL,
+	FOREIGN KEY (vets_id) REFERENCES vets (id) ON UPDATE CASCADE,
+	FOREIGN KEY (species_id) REFERENCES species (id) ON UPDATE CASCADE
+);
