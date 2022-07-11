@@ -18,6 +18,10 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - GitHub: [@githubrwubakwanayo](https://github.com/RWUBAKWANAYO)
 - LinkedIn: [Rwubakwanayo](https://www.linkedin.com/in/rwubakwanayo-olivier)
 
+:bust_in_silhouette: **NWACHAN THEOPHILE**
+- GitHub: [@githubTheophileaseh](https://github.com/Theophileaseh)
+- LinkedIn: [Theophileaseh](https://www.linkedin.com/in/nwachan-theophile-342274172/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
