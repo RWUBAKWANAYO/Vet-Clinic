@@ -199,3 +199,14 @@ Use EXPLAIN ANALYZE to check what is happening.
 
 CREATE INDEX visits_animals_id_asc ON visits(animals_id ASC);
 explain analyze SELECT COUNT(*) FROM visits where animals_id = 4;
+
+-----------------------------------------------
+/*
+Find a way to improve execution time of the other two queries.
+Use EXPLAIN ANALYZE to check what is happening.
+*/
+CREATE INDEX visits_vets_id_asc ON visits(vets_id DESC);
+explain analyze SELECT * FROM visits where vets_id = 2;
+
+CREATE INDEX owners_email_asc ON owners(email ASC);
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
