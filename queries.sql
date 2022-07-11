@@ -190,3 +190,12 @@ JOIN species ON species.id = animals.species_id
 WHERE vets.name = 'Maisy Smith'
 GROUP BY species.name 
 ORDER BY count DESC LIMIT 1;
+
+-----------------------------------------------
+/*
+Find a way to decrease the execution time of the first query.
+Use EXPLAIN ANALYZE to check what is happening.
+*/
+
+CREATE INDEX visits_animals_id_asc ON visits(animals_id ASC);
+explain analyze SELECT COUNT(*) FROM visits where animals_id = 4;
