@@ -3,6 +3,10 @@
 > This template should be used for database related projects at Microverse.
 > Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
 
+## Schema Diagram
+
+![drawSQL-export-2022-07-13_11_54](https://user-images.githubusercontent.com/68381641/178706704-aeb48568-d2bb-4113-b1b1-dd2a3b881b67.png)
+
 
 ## Getting Started
 
