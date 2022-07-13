@@ -20,7 +20,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 :bust_in_silhouette: **NWACHAN THEOPHILE**
 - GitHub: [@githubTheophileaseh](https://github.com/Theophileaseh)
-- LinkedIn: [Theophileaseh](https://www.linkedin.com/in/nwachan-theophile-342274172/)
+- LinkedIn: [Theophileaseh](https://www.linkedin.com/in/nwachan-theophile/)
 
 ## 🤝 Contributing
 
